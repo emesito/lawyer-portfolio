@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* flex standard center dir column */
+.flex-std-ct-clm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex standard center dir row */
+.flex-std-ct-rw {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-dim {
+    width: 100%;
+    height: 100dvh;
+}
+
+/* Hero section */
+
+/* About section */
+
+.abt-cntnr {
+    /* border: 1px solid grey; */
+}
+
+.abt-img-ly {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.abt-img-ctn{
+    width: 80%;
+    height: 80%;
+    border: 2px solid red;
+}
+
+.vr {
+    width: 1px;
+    height: 80dvh;
+    background: grey;
+}
+
+.abt-text-ly {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.abt-text-ctn {
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    gap: 6rem 0;
+    flex-direction: column;
+    justify-content: center;
+}
